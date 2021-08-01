@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+    --font-family: 'Sofia Pro', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+img {
+	max-width: 100%;
+}
+
+@font-face {
+    font-family: Sofia Pro;
+    src: url(../fonts/SofiaProRegular.woff) format("woff") ;
+    font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: Sofia Pro;
+    src: url(../fonts/SofiaProExtraLight.woff);
+    font-display: swap;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 40px 0px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container__nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__leftbar {
+    max-width: 166px;
+}
+
+.container__maincontent{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__container {
+    display: flex;
+    max-width: 1440px;
+    padding-top: 100px;
+    
+}
+
+.maincontainer {
+    background-image: url(../images/bckg.jpg);
+    background-repeat: no-repeat;
+    background-position: 575px 250px;
+}
+
+.leftbar__item {
+    display: inline-block;
+    padding-bottom: 60px;
+    font-weight: 300;
+    font-size: 25px;
+    opacity: 65%;
+    color: #3a3a3a;
+    transition: .9s;
+    
+}
+
+.leftbar__item:hover {
+   
+    opacity: 100%;
+    
+}
+
+.leftbar_section {
+    margin-top: 165px;
+}
+
+.section__title {
+    font-weight: 300;
+    padding-top: 165px;
+}
+
+.title__item {
+    background-color: black;
+    color: white;
+    
+}
+
+.container__maincontent {
+    max-width: 522px;
+    max-height: 320px;
+}
+
+.maincontent__suptitle {
+    margin: 0 auto;
+    font-size: 21px;
+    opacity: 40%;
+}
+
+.maincontent__title {
+    margin: 0 auto;
+    font-size: 62px;
+    font-weight: 300;
+    padding: 0 0;
+}
+
+.maincontent__button {
+    
+}
+
+.button {
+    margin: 35px;
+}
+
+.maincontent__subtitle {
+    font-size: 21px;
+    opacity: 40%;
+}
+  
+.links__rightbar{
+}
+
+.rightbar__links {
+    transform: rotate(-90deg);
+}
+
+.rightbar__social {
+    transform: rotate(-90deg);
+}
+
+.container__rightbar {
+    
+}
+
+.rightbar__item {
+}
+
+.rightbar__inner {
+}
