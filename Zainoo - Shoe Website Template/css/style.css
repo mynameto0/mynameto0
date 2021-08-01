@@ -162,11 +162,11 @@ a {
 }
 
 .rightbar__links {
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
 }
 
 .rightbar__social {
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
 }
 
 .container__rightbar {
@@ -177,4 +177,9 @@ a {
 }
 
 .rightbar__inner {
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
 }
